@@ -1,0 +1,216 @@
+/* Base styles */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #434455;
+    background-color: #FFF;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.button {
+    font-family: inherit;
+}
+
+.button {
+    display: block;
+ color: #FFF;
+ background-color: #4D5AE5;
+ cursor: pointer;
+ font-weight: 500;
+ line-height: 1.5 ;
+ letter-spacing: 0.04em;
+ text-transform: capitalize;
+ text-align: center;
+ border: none;
+ border-radius: 4px;
+ padding: 16px 32px;
+ margin: 0 auto;
+}
+
+.button:hover,
+.button:focus {
+     background-color: #404BBF;
+}
+
+/* Header styles */
+.logo-dark {
+color:  #2e2f42 ;
+font-family: 'Raleway', sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+.logo-light {
+    color: #F4F4FD;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase; 
+   
+   }
+
+.logo-accent {
+   color:  #4d5ae5; 
+   font-family: 'Raleway', sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+}
+
+.nav-link {
+color: #2e2f42;
+font-weight: 500;
+     letter-spacing: 0.02em;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+color: #404BBF;  
+}
+
+.contacts-link {
+    color: #434455;
+    font-style: normal;
+    letter-spacing: 0.02em;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+color: #404BBF; 
+}
+
+.address-contacts-link {
+    font-style: normal ;
+}
+
+
+/* Hero styles */
+.hero-section {
+    background-color: #2E2F42;
+    padding: 188px 0;
+}
+
+.hero-title {
+    color: #FFFFFF;
+    font-family: Roboto;
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+letter-spacing: 0.02em ;
+text-align: center;
+max-width: 496px;
+margin: 0 auto;
+}
+
+
+/* Our advantages section */
+.our-advantages-section {
+   background-color: #FFFFFF;
+}
+
+
+.our-advantages-title {
+    color: #2e2f42;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+text-align: center;
+letter-spacing:  0.02em ;
+text-transform: capitalize;
+}
+
+.our-advantages-list {
+    background-color: #FFFFFF;
+}
+
+.our-advantages-title-text {
+     color: #2e2f42 ;
+ font-weight: 500;
+font-size: 20px;
+ line-height: 1.2;
+ letter-spacing: 0.02em;
+ text-transform: capitalize;
+}
+
+.our-advantages-paragraph {
+font-size: 16px ;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+/* Our Team section */
+.our-team-section {
+    background-color: #F4F4FD;
+}
+
+.our-team-title {
+    color: #2e2f42;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
+}
+
+/* Our portfolio section */
+.our-portfolio-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
+
+}
+
+.our-portfolio-title-text {
+    color: #2e2f42;
+font-weight: 500;
+font-size: 20px ;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+
+.our-portfolio-paragraph {
+    color:  #434455 ;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #2e2f42;
+}
+
+.footer-text {
+    color:  #F4F4FD;
+    letter-spacing: 0.02em;
+}
