@@ -1,25 +1,25 @@
 /* Base styles */
-html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #434455;
-    background-color: #FFF;
-}
-
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    color: #434455 ;
+    font-family: "Roboto", sans-serif;
+    background-color: #FFFFFF; 
 }
-
 
 a {
     text-decoration: none;
+}
+
+.visually-hidden {
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
 }
 
 ul {
@@ -133,17 +133,6 @@ margin: 0 auto;
 /* Our advantages section */
 .our-advantages-section {
    background-color: #FFFFFF;
-}
-
-
-.our-advantages-title {
-    color: #2e2f42;
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-text-align: center;
-letter-spacing:  0.02em ;
-text-transform: capitalize;
 }
 
 .our-advantages-list {
