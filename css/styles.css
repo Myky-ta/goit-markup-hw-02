@@ -183,11 +183,13 @@ text-transform: capitalize;
 
 /* Our portfolio section */
 .our-portfolio-title {
+     color: #2e2f42;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
+text-transform: capitalize;
 
 }
 
@@ -197,6 +199,7 @@ font-weight: 500;
 font-size: 20px ;
 line-height: 1.2;
 letter-spacing: 0.02em;
+text-transform: capitalize;
 }
 
 .our-portfolio-paragraph {
