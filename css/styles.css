@@ -1,4 +1,5 @@
 /* Base styles */
+/*
 body {
     color: #434455 ;
     font-family: "Roboto", sans-serif;
@@ -8,6 +9,7 @@ body {
 a {
     text-decoration: none;
 }
+*/
 
 .visually-hidden {
 position: absolute;
